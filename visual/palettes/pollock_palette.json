@@ -1,0 +1,95 @@
+{
+  "artist": "Jackson Pollock",
+  "description": "Color palettes extracted from major works across Pollock's career, with emphasis on drip period and classic period paintings.",
+  "palettes": [
+    {
+      "id": "POLLOCK-PAL-001",
+      "name": "Drip Period Early",
+      "period": "1947-1948",
+      "work_reference": "Cathedral (1947), Full Fathom Five (1947), Enchanted Forest (1947)",
+      "colors": [
+        { "hex": "#1C1208", "name": "Pitch Black Brown", "role": "dominant ground layer", "percentage": 30 },
+        { "hex": "#4A3728", "name": "Dark Umber", "role": "structural web lines", "percentage": 20 },
+        { "hex": "#8B6914", "name": "Raw Sienna", "role": "secondary web", "percentage": 15 },
+        { "hex": "#C8A96E", "name": "Pale Gold Ochre", "role": "highlight lines", "percentage": 12 },
+        { "hex": "#E8DCC8", "name": "Cream White", "role": "light accent lines", "percentage": 10 },
+        { "hex": "#2F4A1C", "name": "Forest Green", "role": "embedded color nodes", "percentage": 8 },
+        { "hex": "#7A2010", "name": "Dark Oxide Red", "role": "embedded color accent", "percentage": 5 }
+      ],
+      "emotional_character": "Dense, primordial, subconscious emergence. Earthy and cave-like, suggesting deep psychological excavation. The palette evokes pre-verbal sensation and mythic darkness.",
+      "technique_context": "Early drip works used house paint poured from cans onto unprimed canvas laid flat on floor. Paint was often enamel-based (Duco), giving luminous quality even in dark hues.",
+      "ai_art_tags": ["drip painting", "earth tones", "dark ground", "layered web", "primal", "umber", "ochre", "gestural", "all-over composition"]
+    },
+    {
+      "id": "POLLOCK-PAL-002",
+      "name": "Classic Period Black Silver White",
+      "period": "1948-1950",
+      "work_reference": "Number 1A 1948, Number 31 1950, Autumn Rhythm 1950, One: Number 31 1950",
+      "colors": [
+        { "hex": "#0A0A0A", "name": "Ivory Black", "role": "primary drip web dominant", "percentage": 45 },
+        { "hex": "#C8C8C0", "name": "Silver White", "role": "counter-web, bright structure", "percentage": 25 },
+        { "hex": "#F5F0E8", "name": "Titanium White", "role": "bright accent nodes and splatter", "percentage": 15 },
+        { "hex": "#8C8070", "name": "Warm Gray", "role": "mid-tone transitions", "percentage": 10 },
+        { "hex": "#D4A844", "name": "Yellow Ochre", "role": "rare warm accent", "percentage": 3 },
+        { "hex": "#8B3020", "name": "Venetian Red", "role": "rare embedded accent", "percentage": 2 }
+      ],
+      "emotional_character": "Monumental, heroic, kinetic urgency. The high contrast creates maximum visual energy. Suggests the rhythm of jazz, automatic writing, action frozen in time.",
+      "technique_context": "Pollock refined his technique using hardened brushes, sticks, and direct pour. Autumn Rhythm is 17 feet wide—scale amplifies the immersive all-over effect.",
+      "ai_art_tags": ["black and white", "high contrast", "drip", "classic Pollock", "all-over", "kinetic", "monumental", "action painting"]
+    },
+    {
+      "id": "POLLOCK-PAL-003",
+      "name": "Blue Poles Palette",
+      "period": "1952",
+      "work_reference": "Blue Poles: Number 11, 1952",
+      "colors": [
+        { "hex": "#1A3A5C", "name": "Prussian Blue", "role": "the eight vertical pole structures", "percentage": 18 },
+        { "hex": "#0D0D0D", "name": "Lamp Black", "role": "dense underlying web", "percentage": 22 },
+        { "hex": "#F0E8D0", "name": "Warm White", "role": "bright webbing counter-point", "percentage": 18 },
+        { "hex": "#C84820", "name": "Vermilion Red", "role": "embedded heat accents", "percentage": 14 },
+        { "hex": "#D4A020", "name": "Chrome Yellow", "role": "warm light accents", "percentage": 12 },
+        { "hex": "#4A7A30", "name": "Sap Green", "role": "cool mid-tone accent", "percentage": 8 },
+        { "hex": "#8B5A2B", "name": "Burnt Sienna", "role": "warm brown nodes", "percentage": 8 }
+      ],
+      "emotional_character": "Chaotic exuberance restrained by monumental vertical structures. The poles provide rhythm while the underlying field seethes with contained energy. More festive and complex than pure black-and-white works.",
+      "technique_context": "Blue Poles was painted with Lee Krasner's assistance. The poles were added last using boards as guides. Purchased by Australia for $1.3M in 1973.",
+      "ai_art_tags": ["blue poles", "vertical rhythm", "polychrome drip", "structured chaos", "festive", "Pollock 1952", "Australian National Gallery"]
+    },
+    {
+      "id": "POLLOCK-PAL-004",
+      "name": "Lavender Mist Palette",
+      "period": "1950",
+      "work_reference": "Lavender Mist: Number 1, 1950",
+      "colors": [
+        { "hex": "#C8B8C8", "name": "True Lavender", "role": "atmospheric mist, dominant visual tone", "percentage": 25 },
+        { "hex": "#E8E0E8", "name": "Pale Lilac White", "role": "light filament webs", "percentage": 20 },
+        { "hex": "#A898A8", "name": "Dusty Mauve", "role": "mid lavender transitions", "percentage": 18 },
+        { "hex": "#0A0A0A", "name": "Black", "role": "structural spine lines", "percentage": 15 },
+        { "hex": "#D4C090", "name": "Warm Sand", "role": "warm counter-note", "percentage": 10 },
+        { "hex": "#8878A8", "name": "Deep Violet Gray", "role": "shadow depths", "percentage": 7 },
+        { "hex": "#F8F4F0", "name": "Near White", "role": "luminous highlight nodes", "percentage": 5 }
+      ],
+      "emotional_character": "Ethereal, transcendent, dreamlike. The lavender pervades the entire surface creating an atmospheric shimmer unlike any other Pollock. Suggests mist over water at dawn, or consciousness dissolving.",
+      "technique_context": "Greenberg titled it Lavender Mist—Pollock never used that name. The lavender effect comes from the interaction of blue, red, and white paint at the micro scale of individual drip interactions.",
+      "ai_art_tags": ["lavender", "atmospheric", "misty", "ethereal", "drip", "Pollock 1950", "color field adjacent", "NGA Washington"]
+    },
+    {
+      "id": "POLLOCK-PAL-005",
+      "name": "Full Fathom Five Palette",
+      "period": "1947",
+      "work_reference": "Full Fathom Five (1947) - MoMA",
+      "colors": [
+        { "hex": "#1A3020", "name": "Deep Sea Green", "role": "dominant ground, oceanic depth", "percentage": 28 },
+        { "hex": "#0A1A10", "name": "Abyssal Dark", "role": "deepest shadow regions", "percentage": 22 },
+        { "hex": "#2A5A38", "name": "Sea Kelp Green", "role": "mid-depth color web", "percentage": 18 },
+        { "hex": "#C8A028", "name": "Phosphorescent Ochre", "role": "bioluminescent accent lines", "percentage": 12 },
+        { "hex": "#A08060", "name": "Sandbar Brown", "role": "warm embedded accents", "percentage": 10 },
+        { "hex": "#E8E0C8", "name": "Sea Foam White", "role": "surface light hits", "percentage": 7 },
+        { "hex": "#4A6888", "name": "Deep Sea Blue", "role": "cool depth accent", "percentage": 3 }
+      ],
+      "emotional_character": "Oceanic, submarine, Shakespearean. Named from The Tempest ('Full fathom five thy father lies'). Contains embedded physical objects: nails, keys, coins, buttons—the painting has literal physical depth.",
+      "technique_context": "One of Pollock's first drip paintings. Physical objects embedded in paint surface. Heavy buildup of paint creates actual physical relief. Green dominance is unusual in his oeuvre.",
+      "ai_art_tags": ["deep green", "oceanic", "submarine", "dark ground", "embedded objects", "early drip", "MoMA", "Shakespeare reference", "bioluminescence"]
+    }
+  ]
+}
