@@ -1,0 +1,103 @@
+{
+  "artist": "Mark Rothko",
+  "palettes": [
+    {
+      "id": "ROTHKO-PAL-001",
+      "name": "Early Mythological Period",
+      "period": "1940-1946",
+      "colors": [
+        {"hex": "#8B4513", "name": "Burnt Sienna", "role": "ground", "percentage": 30},
+        {"hex": "#DAA520", "name": "Golden Ochre", "role": "mid-field", "percentage": 25},
+        {"hex": "#2F4F4F", "name": "Dark Slate", "role": "shadow forms", "percentage": 20},
+        {"hex": "#CD853F", "name": "Peru Brown", "role": "warm accent", "percentage": 15},
+        {"hex": "#F5DEB3", "name": "Wheat", "role": "light accent", "percentage": 10}
+      ],
+      "emotional_character": "Archaic, mythic, surrealist-influenced. Biomorphic forms emerge from warm earthy grounds.",
+      "technique_context": "Oil on canvas, figurative abstraction, Surrealist automatism influence.",
+      "ai_art_tags": ["mythological", "surrealist", "biomorphic", "earth tones", "archaic"]
+    },
+    {
+      "id": "ROTHKO-PAL-002",
+      "name": "Transitional Multiforms",
+      "period": "1948-1949",
+      "colors": [
+        {"hex": "#E8A020", "name": "Saffron", "role": "dominant field", "percentage": 35},
+        {"hex": "#C83020", "name": "Vermilion", "role": "secondary field", "percentage": 30},
+        {"hex": "#F0E060", "name": "Cadmium Yellow", "role": "bright accent", "percentage": 20},
+        {"hex": "#301818", "name": "Near Black", "role": "ground", "percentage": 15}
+      ],
+      "emotional_character": "Explosive transition—color finding its freedom from form.",
+      "technique_context": "Moving toward pure color rectangles, forms dissolving.",
+      "ai_art_tags": ["multiform", "transitional", "warm", "color liberation"]
+    },
+    {
+      "id": "ROTHKO-PAL-003",
+      "name": "Classic Orange Yellow Period",
+      "period": "1950-1957",
+      "colors": [
+        {"hex": "#E85820", "name": "Cadmium Orange Deep", "role": "dominant upper rectangle", "percentage": 40},
+        {"hex": "#F0A820", "name": "Chrome Yellow Orange", "role": "lower rectangle", "percentage": 30},
+        {"hex": "#FFD060", "name": "Pale Lemon", "role": "luminous inner glow", "percentage": 20},
+        {"hex": "#C84010", "name": "Cadmium Red Deep", "role": "dark lower band", "percentage": 10}
+      ],
+      "emotional_character": "Radiant, expansive, solar. Rothko said he wanted viewers to weep before his color.",
+      "technique_context": "Thin luminous oil glazes on raw canvas. Edges feathered to create breathing quality.",
+      "ai_art_tags": ["orange", "yellow", "luminous", "classic Rothko", "color field", "radiant"]
+    },
+    {
+      "id": "ROTHKO-PAL-004",
+      "name": "Seagram Murals Dark Period",
+      "period": "1958-1959",
+      "colors": [
+        {"hex": "#3D0C0C", "name": "Dark Maroon", "role": "dominant field", "percentage": 45},
+        {"hex": "#1A0808", "name": "Near Black Red", "role": "ground", "percentage": 30},
+        {"hex": "#6B1A1A", "name": "Deep Crimson", "role": "rectangle form", "percentage": 20},
+        {"hex": "#8B2020", "name": "Venetian Red", "role": "light accent edge", "percentage": 5}
+      ],
+      "emotional_character": "Oppressive, monumental, tragic. Rothko intended these to ruin appetite—commissioned for Four Seasons restaurant but donated to Tate.",
+      "technique_context": "Large-scale murals, dark grounds, forms suggest doorways and architecture—temples of doom.",
+      "ai_art_tags": ["dark maroon", "Seagram", "oppressive", "architectural", "tragic", "doorways"]
+    },
+    {
+      "id": "ROTHKO-PAL-005",
+      "name": "Rothko Chapel",
+      "period": "1964-1967",
+      "colors": [
+        {"hex": "#1A0A0A", "name": "Plum Black", "role": "dominant field", "percentage": 50},
+        {"hex": "#2A0A0A", "name": "Dark Burgundy", "role": "triptych variation", "percentage": 25},
+        {"hex": "#0A0A0A", "name": "Absolute Black", "role": "deepest panels", "percentage": 20},
+        {"hex": "#3A1010", "name": "Very Dark Maroon", "role": "barely visible variation", "percentage": 5}
+      ],
+      "emotional_character": "Void, silence, death, transcendence. The Chapel commissioned by de Menils is Rothko's ultimate statement—14 near-black canvases in an octagonal nondenominational chapel.",
+      "technique_context": "Dry egg tempera and oil, ultramarine and black pigments. Rothko died before installation.",
+      "ai_art_tags": ["black", "void", "transcendence", "chapel", "silence", "monumental", "meditative"]
+    },
+    {
+      "id": "ROTHKO-PAL-006",
+      "name": "Harvard Murals",
+      "period": "1962",
+      "colors": [
+        {"hex": "#8B0000", "name": "Dark Crimson", "role": "dominant field", "percentage": 40},
+        {"hex": "#C41E3A", "name": "Cardinal Red", "role": "upper rectangle", "percentage": 30},
+        {"hex": "#4A0010", "name": "Burgundy Black", "role": "lower ground", "percentage": 20},
+        {"hex": "#E83030", "name": "Pure Vermilion", "role": "luminous accent edge", "percentage": 10}
+      ],
+      "emotional_character": "Intense, academic-critical, brooding. The crimson dominance creates sustained emotional pressure.",
+      "technique_context": "Five-panel mural for Harvard Holyoke Center. Faded dramatically due to fugitive pigments (lithol red).",
+      "ai_art_tags": ["crimson", "Harvard", "red", "mural", "academic", "deep red"]
+    },
+    {
+      "id": "ROTHKO-PAL-007",
+      "name": "Late Gray and Black Works",
+      "period": "1968-1970",
+      "colors": [
+        {"hex": "#2A2A2A", "name": "Charcoal Black", "role": "upper field", "percentage": 50},
+        {"hex": "#909090", "name": "Medium Gray", "role": "lower field", "percentage": 35},
+        {"hex": "#D0D0D0", "name": "Light Gray", "role": "inner luminous band", "percentage": 15}
+      ],
+      "emotional_character": "Resigned, elegy, farewell. Painted after aortic aneurysm. Gray/black works created in the last two years of his life—stark renunciation of color.",
+      "technique_context": "Acrylic on paper, simplified. Last works before suicide February 1970.",
+      "ai_art_tags": ["gray", "black", "late works", "elegy", "acrylic", "renunciation", "farewell"]
+    }
+  ]
+}

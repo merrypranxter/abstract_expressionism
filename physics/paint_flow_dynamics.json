@@ -1,0 +1,204 @@
+{
+  "viscosity_data": [
+    {
+      "paint_type": "watercolor",
+      "viscosity_cp": { "min": 1, "max": 5, "typical": 2 },
+      "density_kg_m3": 1010,
+      "surface_tension_mN_m": 45,
+      "flow_classification": "Newtonian",
+      "flow_rate_description": "Flows freely like slightly thickened water; gravity dominates at any tilt",
+      "drip_behavior": "Forms very small, fast-moving drops; minimal bead formation; spreads rapidly on contact",
+      "pollock_usability": "Rarely used by Pollock; too thin for controlled pouring, bleeds into canvas fibers unpredictably"
+    },
+    {
+      "paint_type": "gouache",
+      "viscosity_cp": { "min": 500, "max": 3000, "typical": 1200 },
+      "density_kg_m3": 1400,
+      "surface_tension_mN_m": 38,
+      "flow_classification": "non-Newtonian (shear-thinning)",
+      "flow_rate_description": "Thick at rest; thins under brushing or pouring pressure; settles back to higher viscosity quickly",
+      "drip_behavior": "Drips slowly, forms stubby drops with clean break; minimal thread formation",
+      "pollock_usability": "Not favored; dries matte and chalky; lacks the fluidity Pollock needed for extended drip arcs"
+    },
+    {
+      "paint_type": "acrylic_fluid",
+      "viscosity_cp": { "min": 50, "max": 500, "typical": 150 },
+      "density_kg_m3": 1050,
+      "surface_tension_mN_m": 35,
+      "flow_classification": "non-Newtonian (mildly shear-thinning)",
+      "flow_rate_description": "Flows easily; maintains thread continuity during pouring; level self-smoothing within minutes",
+      "drip_behavior": "Long, continuous threads; clean drop formation; moderate spreading on impact",
+      "pollock_usability": "Not available during Pollock's active period (pre-1956); contemporary artists use it as substitute"
+    },
+    {
+      "paint_type": "acrylic_heavy_body",
+      "viscosity_cp": { "min": 10000, "max": 50000, "typical": 25000 },
+      "density_kg_m3": 1300,
+      "surface_tension_mN_m": 36,
+      "flow_classification": "non-Newtonian (thixotropic)",
+      "flow_rate_description": "Very stiff at rest; requires significant force to flow; minimal self-leveling",
+      "drip_behavior": "Does not drip naturally; forms peaks and ridges; knife or palette tool required for movement",
+      "pollock_usability": "Not useful for drip; suitable for impasto texture building"
+    },
+    {
+      "paint_type": "oil_paint_standard",
+      "viscosity_cp": { "min": 2000, "max": 8000, "typical": 4000 },
+      "density_kg_m3": 1200,
+      "surface_tension_mN_m": 30,
+      "flow_classification": "non-Newtonian (thixotropic)",
+      "flow_rate_description": "Stiff to moderately thick; can be thinned with solvents; does not flow without medium addition",
+      "drip_behavior": "Heavy, slow drips if thinned; long strings; significant thread formation with solvents",
+      "pollock_usability": "Used in early career (1940s); later replaced with faster-drying commercial paints"
+    },
+    {
+      "paint_type": "oil_paint_thinned_with_mineral_spirits",
+      "viscosity_cp": { "min": 50, "max": 400, "typical": 150 },
+      "density_kg_m3": 1100,
+      "surface_tension_mN_m": 27,
+      "flow_classification": "Newtonian (when sufficiently thinned)",
+      "flow_rate_description": "Highly fluid; flows like thick syrup; long working time; very slow drying",
+      "drip_behavior": "Long continuous strings; significant spread on canvas; sinuous trails",
+      "pollock_usability": "Used for some works; slow drying limited layering; replaced by alkyd and commercial enamels"
+    },
+    {
+      "paint_type": "Duco_enamel",
+      "viscosity_cp": { "min": 80, "max": 180, "typical": 120 },
+      "density_kg_m3": 1150,
+      "surface_tension_mN_m": 32,
+      "flow_classification": "Newtonian",
+      "flow_rate_description": "Ideal pouring consistency; flows in long continuous threads from stick or hardened brush; maintains arc shape during fall",
+      "drip_behavior": "Perfect thread formation; drops bead naturally; sinuous trails as artist moves; controlled splatter on impact",
+      "pollock_usability": "PRIMARY MEDIUM for drip period 1947-1950; Duco nitrocellulose lacquer enamel (DuPont) allowed Pollock the exact fluidity for his signature technique. Available at hardware stores cheaply."
+    },
+    {
+      "paint_type": "house_paint_alkyd",
+      "viscosity_cp": { "min": 100, "max": 200, "typical": 140 },
+      "density_kg_m3": 1350,
+      "surface_tension_mN_m": 35,
+      "flow_classification": "non-Newtonian (mild thixotropic)",
+      "flow_rate_description": "Similar to Duco enamel; slightly thicker; shear-thins well during pouring; good thread length",
+      "drip_behavior": "Slightly heavier drops; good arc formation; moderate spreading; used extensively by Pollock",
+      "pollock_usability": "Used alongside Duco; Benjamin Moore and other commercial house paints were cheap and accessible. White house paint used for ground layers; colored enamels for marks."
+    },
+    {
+      "paint_type": "enamel_oil_based",
+      "viscosity_cp": { "min": 150, "max": 400, "typical": 250 },
+      "density_kg_m3": 1250,
+      "surface_tension_mN_m": 33,
+      "flow_classification": "non-Newtonian (shear-thinning)",
+      "flow_rate_description": "Moderately thick; flows under pouring; maintains thread better than water-based at similar viscosity",
+      "drip_behavior": "Medium drop weight; good arc control; slightly longer drying window than Duco",
+      "pollock_usability": "Used in various works; thicker consistency created bolder, wider lines compared to Duco"
+    }
+  ],
+  "flow_equations": {
+    "hagen_poiseuille": {
+      "description": "Volumetric flow rate through a cylindrical tube (e.g., paint exiting a nozzle or hole in can)",
+      "formula": "Q = (π * r^4 * ΔP) / (8 * η * L)",
+      "variables": {
+        "Q": "volumetric flow rate (m³/s)",
+        "r": "tube radius (m)",
+        "delta_P": "pressure difference (Pa)",
+        "eta": "dynamic viscosity (Pa·s = kg/(m·s))",
+        "L": "tube length (m)"
+      },
+      "note": "Valid only for Newtonian fluids in laminar flow (Re < 2100). For Duco enamel at 120 cP through a 3mm hole: Q ≈ 2.7 × 10⁻⁷ m³/s"
+    },
+    "reynolds_number": {
+      "description": "Determines whether flow is laminar or turbulent",
+      "formula": "Re = (ρ * v * D) / η",
+      "variables": {
+        "rho": "fluid density (kg/m³)",
+        "v": "flow velocity (m/s)",
+        "D": "characteristic length/diameter (m)",
+        "eta": "dynamic viscosity (Pa·s)"
+      },
+      "laminar_threshold": "Re < 2100",
+      "turbulent_threshold": "Re > 4000",
+      "pollock_context": "Duco enamel drip from 1m height, 3mm thread: Re ≈ 12 — deeply laminar, explaining the smooth sinuous lines"
+    },
+    "terminal_velocity_drop": {
+      "description": "Maximum velocity a paint drop reaches in free fall through air",
+      "formula": "v_t = sqrt( (2 * m * g) / (ρ_air * C_D * A) )",
+      "variables": {
+        "v_t": "terminal velocity (m/s)",
+        "m": "drop mass (kg)",
+        "g": "gravitational acceleration = 9.81 m/s²",
+        "rho_air": "air density ≈ 1.225 kg/m³ at sea level",
+        "C_D": "drag coefficient ≈ 0.47 for sphere",
+        "A": "cross-sectional area of drop (m²)"
+      },
+      "example": "Duco enamel drop, diameter 3mm, mass ≈ 5×10⁻⁵ kg: v_t ≈ 4.2 m/s",
+      "note": "Pollock dripped from ~0.5-1m height; drops reached 60-85% of terminal velocity on impact"
+    },
+    "capillary_pressure": {
+      "description": "Pressure driving paint into canvas pores (Young-Laplace equation)",
+      "formula": "ΔP = (2 * γ * cos(θ)) / r",
+      "variables": {
+        "gamma": "surface tension of paint (N/m)",
+        "theta": "contact angle between paint and fiber (°)",
+        "r": "pore radius (m)"
+      },
+      "canvas_example": "Raw cotton duck, pore r ≈ 10μm, Duco enamel γ = 0.032 N/m, θ ≈ 30°: ΔP ≈ 5500 Pa"
+    },
+    "spreading_radius": {
+      "description": "Radius of paint pool after drop impact (energy conservation model)",
+      "formula": "R = k * D^(1/2) * We^(1/4)",
+      "variables": {
+        "R": "spreading radius (m)",
+        "D": "drop diameter at impact (m)",
+        "We": "Weber number = ρ v² D / γ",
+        "k": "empirical constant ≈ 0.9 for paint on canvas"
+      },
+      "laan_formula": "r = (ρ * V * v²) / (8 * γ) — simplified for low-viscosity paints"
+    },
+    "paint_thread_velocity": {
+      "description": "Velocity of a continuous paint thread during Pollock-style pouring",
+      "formula": "v_thread(t) = v_0 + g * t * (1 - exp(-t/τ))",
+      "variables": {
+        "v_0": "initial pour velocity (m/s)",
+        "g": "9.81 m/s²",
+        "t": "time in free fall (s)",
+        "tau": "viscous relaxation time = η / (ρ * g * h)"
+      }
+    }
+  },
+  "surface_tension_effects": {
+    "drip_formation": "Surface tension resists drop detachment from tool. Drop forms when gravity force (mg) exceeds maximum surface tension force (π * d * γ). Critical diameter: d_c = sqrt(6 * V * γ / (π * ρ * g)). For Duco enamel: d_c ≈ 4-6 mm",
+    "thread_stability": "Paint thread remains intact when Ca (capillary number) = η*v/γ < 1. For Duco at 120 cP and pour velocity 0.5 m/s: Ca ≈ 1.9 — near breakup threshold, creating the characteristic thread-to-drop transition",
+    "spreading_on_canvas": "On hydrophilic canvas, contact angle θ < 90°, so paint wets and spreads. On oil-primed canvas, θ > 90°, paint beads. Spreading coefficient S = γ_solid_air - γ_solid_liquid - γ_liquid_air",
+    "fringe_formation": "At paint puddle edges, evaporation increases surface tension locally, driving inward Marangoni flow — concentrating pigment at edges (coffee-ring effect, partially suppressed by viscosity)"
+  },
+  "capillary_action_data": {
+    "raw_cotton_duck": {
+      "wicking_rate_mm_per_min": 8.5,
+      "saturation_depth_mm": 0.4,
+      "absorption_capacity_g_per_m2": 120,
+      "note": "Highly absorbent; Frankenthaler exploited this for stain technique"
+    },
+    "raw_linen": {
+      "wicking_rate_mm_per_min": 5.2,
+      "saturation_depth_mm": 0.3,
+      "absorption_capacity_g_per_m2": 85,
+      "note": "Less absorbent than cotton duck; finer weave"
+    },
+    "acrylic_gessoed_canvas": {
+      "wicking_rate_mm_per_min": 0.8,
+      "saturation_depth_mm": 0.05,
+      "absorption_capacity_g_per_m2": 12,
+      "note": "Gesso seals pores; paint sits on surface; Pollock used this for works needing distinct layers"
+    },
+    "oil_primed_canvas": {
+      "wicking_rate_mm_per_min": 0.1,
+      "saturation_depth_mm": 0.01,
+      "absorption_capacity_g_per_m2": 3,
+      "note": "Essentially sealed; paint sits on top; very long working time; historical standard"
+    },
+    "hardboard_masonite": {
+      "wicking_rate_mm_per_min": 0.0,
+      "saturation_depth_mm": 0.0,
+      "absorption_capacity_g_per_m2": 0,
+      "note": "Non-absorbent; paint pools on surface; impasto builds up"
+    }
+  }
+}

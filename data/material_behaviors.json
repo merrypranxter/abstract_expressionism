@@ -1,0 +1,341 @@
+{
+  "viscosity_data": [
+    {
+      "id": "VISC-001",
+      "material": "Duco Enamel (commercial, as used by Pollock)",
+      "viscosity_cP": 800,
+      "viscosity_range_cP": {"min": 400, "max": 2000},
+      "flow_character": "Pseudoplastic (shear-thinning) — thins under brush load, returns to gel at rest; ideal for drip technique",
+      "pour_behavior": "Controlled pour at 45°; drip from height forms stable stream before bead breakup",
+      "surface_tension_mN_per_m": 35,
+      "notes": "Pollock preferred Duco brand automotive enamel; also used Krylon and other industrial products. Viscosity optimized for spray/drip, not brush"
+    },
+    {
+      "id": "VISC-002",
+      "material": "Oil Paint — tube consistency (linseed-bound)",
+      "viscosity_cP": 50000,
+      "viscosity_range_cP": {"min": 20000, "max": 200000},
+      "flow_character": "Bingham plastic — requires yield stress to flow; thixotropic behavior under sustained work; stiff, buttery character",
+      "pour_behavior": "Does not pour at tube consistency; thinned with mineral spirits to 1000–5000 cP for pour techniques",
+      "surface_tension_mN_per_m": 32,
+      "notes": "Varies considerably by pigment — cadmium, titanium white: very stiff; raw umber, viridian: softer. Linseed oil vs safflower oil affects viscosity and yellowing"
+    },
+    {
+      "id": "VISC-003",
+      "material": "Oil Paint — heavily thinned (1:5 paint to mineral spirits)",
+      "viscosity_cP": 200,
+      "viscosity_range_cP": {"min": 50, "max": 500},
+      "flow_character": "Near-Newtonian at these dilutions; flows freely; suitable for staining techniques; loses body, pigment concentration reduced",
+      "pour_behavior": "Excellent pour; spreads on canvas under gravity and capillary action; penetrates raw canvas fibers",
+      "surface_tension_mN_per_m": 28,
+      "notes": "Frankenthaler's early technique (Mountains and Sea) used oil thinned to near-watercolor in turpentine on raw canvas; creates the stain characteristic"
+    },
+    {
+      "id": "VISC-004",
+      "material": "Acrylic Paint — fluid formulation",
+      "viscosity_cP": 1500,
+      "viscosity_range_cP": {"min": 500, "max": 5000},
+      "flow_character": "Pseudoplastic; designed for controlled pour and flow; consistent viscosity across colors unlike oil",
+      "pour_behavior": "Good; flows predictably; surface tension creates slight beading at flow front; dries faster limiting flow distance",
+      "surface_tension_mN_per_m": 45,
+      "notes": "Golden Fluid Acrylics and similar products are the modern equivalent for staining/pour techniques; faster drying than oil requires more planned pours"
+    },
+    {
+      "id": "VISC-005",
+      "material": "Acrylic Paint — heavy body",
+      "viscosity_cP": 100000,
+      "viscosity_range_cP": {"min": 50000, "max": 300000},
+      "flow_character": "Highly thixotropic; very stiff at rest, shear-thinning under brush; holds peaks in thick application",
+      "pour_behavior": "Does not pour; equivalent to oil tube consistency for impasto work",
+      "surface_tension_mN_per_m": 45,
+      "notes": "Used for impasto equivalents in acrylic medium; faster drying than oil impasto creates different working character"
+    },
+    {
+      "id": "VISC-006",
+      "material": "Watercolor — wet dilution on wet paper",
+      "viscosity_cP": 5,
+      "viscosity_range_cP": {"min": 2, "max": 20},
+      "flow_character": "Near-water viscosity; capillary flow dominates on wet paper surface; controlled by paper absorbency and tilt",
+      "pour_behavior": "Excellent diffusion; creates soft blooms and wet-into-wet effects; highly surface-condition dependent",
+      "surface_tension_mN_per_m": 72,
+      "notes": "Surface tension of water dominates at this dilution; bloom edges (backruns) form at paint-water boundary"
+    }
+  ],
+
+  "drying_mechanisms": [
+    {
+      "id": "DRY-OIL",
+      "paint_type": "Oil Paint",
+      "mechanism": "Oxidative polymerization",
+      "process_description": "Unsaturated fatty acid chains in drying oils (linseed, walnut, poppyseed) absorb atmospheric oxygen; oxidation triggers cross-linking polymerization forming a solid polymer network; the process is exothermic and continues in the paint film for decades",
+      "stages": [
+        {"stage": "Surface dry", "time": "1-7 days", "state": "Skin forms on surface; tacky then firm surface; interior still wet"},
+        {"stage": "Through dry", "time": "2-6 weeks", "state": "Paint film no longer moves under light pressure"},
+        {"stage": "Cure", "time": "6 months - 2 years", "state": "Full hardness achieved; cross-linking substantially complete"},
+        {"stage": "Continued aging", "time": "Decades", "state": "Further cross-linking; slight darkening; increased brittleness in thick passages over decades"}
+      ],
+      "factors_affecting_rate": ["pigment type (metallic driers vs slow-drying)", "paint film thickness", "temperature (faster warm)", "humidity (moderate is optimal)", "light exposure (UV accelerates)"],
+      "oil_comparisons": {
+        "linseed": "Fastest drying, yellows more",
+        "safflower": "Slower, less yellowing — preferred for whites and blues",
+        "walnut": "Medium speed, little yellowing",
+        "poppyseed": "Slowest, least yellowing — traditional for whites"
+      }
+    },
+    {
+      "id": "DRY-ACRYLIC",
+      "paint_type": "Acrylic Paint",
+      "mechanism": "Water evaporation followed by polymer coalescence",
+      "process_description": "Acrylic polymer is held in suspension in water as an emulsion; as water evaporates, polymer particles are drawn together by capillary forces; particles coalesce and fuse into a continuous flexible film above the minimum film-forming temperature (MFFT, typically 15-20°C); process is irreversible once complete",
+      "stages": [
+        {"stage": "Wet", "time": "0-20 min", "state": "Full water content; workable and re-workable"},
+        {"stage": "Setting", "time": "20-45 min", "state": "Water evaporating; becoming tacky; mixing colors becomes difficult"},
+        {"stage": "Surface dry", "time": "45-90 min (thin layers)", "state": "Film formed; no longer tacky; can be overworked carefully"},
+        {"stage": "Through dry", "time": "Hours to 2 days (thick layers)", "state": "Full water evaporation; polymer coalescence complete"}
+      ],
+      "factors_affecting_rate": ["temperature (cold slows dramatically — do not use below 10°C)", "humidity (high humidity slows)", "air movement (increases rate)", "film thickness", "retarder medium added"],
+      "critical_temperature": "Below 10°C acrylic will not form proper film and will remain powdery or crack when dry"
+    },
+    {
+      "id": "DRY-ENAMEL",
+      "paint_type": "Commercial Enamel (Alkyd-based)",
+      "mechanism": "Solvent evaporation followed by oxidative polymerization (similar to oil but faster)",
+      "process_description": "Mineral spirits evaporate first (fast stage); alkyd resin — a synthetic drying oil polyester — then undergoes oxidative polymerization forming a hard, shiny film; alkyds are engineered to dry faster than natural oils",
+      "stages": [
+        {"stage": "Set", "time": "2-4 hours", "state": "Solvent largely evaporated; film firm but not hard"},
+        {"stage": "Hard dry", "time": "8-24 hours", "state": "Full hardness; ready for overpainting"},
+        {"stage": "Cure", "time": "1-2 weeks", "state": "Full chemical cure; maximum hardness and chemical resistance"}
+      ],
+      "factors_affecting_rate": ["temperature (faster warm)", "air circulation", "film thickness"],
+      "notes": "Commercial enamel films are harder and less flexible than oil or acrylic when cured; risk of cracking in thick applications"
+    }
+  ],
+
+  "surface_interactions": [
+    {
+      "id": "SURF-OIL-RAW",
+      "paint_type": "Oil Paint",
+      "surface": "Raw unprimed canvas",
+      "interaction": "Oil penetrates fiber; oil binds to cellulose (cotton) or linen fiber; over time, the oil hydrolyzes (breaks down) the cellulose chains, weakening the canvas structurally; acid from oxidizing oil attacks fiber",
+      "visual_effect": "Stained appearance; color becomes part of fabric; slight halo at paint boundary",
+      "absorbency": "High — oil seeps deeply into fiber matrix",
+      "archival_assessment": "Poor for long-term: oil causes fiber degradation; Pollock's raw canvas drip paintings are known conservation concerns",
+      "artist_exploitation": "Pollock and some Color Field artists accepted this in exchange for the visual effect"
+    },
+    {
+      "id": "SURF-OIL-SIZED",
+      "paint_type": "Oil Paint",
+      "surface": "Rabbit skin glue sized canvas",
+      "interaction": "Glue seals fiber surface; oil sits in and above glue layer; fiber protected from direct oil contact; size layer can crack in high humidity cycles",
+      "visual_effect": "Paint builds as surface layer; slight tooth from canvas texture shows through; color appears slightly more opaque than on raw",
+      "absorbency": "Moderate — glue absorbs initial paint before saturation",
+      "archival_assessment": "Good with stable environmental conditions; glue re-activates with high humidity",
+      "artist_exploitation": "Rothko used sized canvas to control wash absorption — the glue allows wash to spread without full penetration, enabling his layered veil technique"
+    },
+    {
+      "id": "SURF-OIL-GESSO",
+      "paint_type": "Oil Paint",
+      "surface": "Acrylic gesso primed canvas",
+      "interaction": "Oil paint sits on gesso surface; adhesion relies on mechanical tooth of gesso texture; oil on acrylic can delaminate if oil layers applied too thick and too lean too early",
+      "visual_effect": "Paint texture fully visible; bright white ground enhances color luminosity; surface has slight grip",
+      "absorbency": "Low to moderate depending on gesso coats",
+      "archival_assessment": "Generally good; delamination risk with improperly applied oil over acrylic",
+      "artist_exploitation": "Standard practice for post-1960 artists; Mitchell and others used gesso as universal ground for oil and mixed media"
+    },
+    {
+      "id": "SURF-ACRYLIC-RAW",
+      "paint_type": "Acrylic Paint",
+      "surface": "Raw unprimed canvas",
+      "interaction": "Acrylic polymer penetrates and binds to fiber; no hydrolysis of fiber; the polymer encapsulates the fiber, protecting rather than degrading it",
+      "visual_effect": "Stained effect similar to oil on raw canvas but archivally stable; color absorbed into fiber; characteristic of Color Field second generation",
+      "absorbency": "High — thin acrylic absorbed rapidly into raw canvas",
+      "archival_assessment": "Good — acrylic does not degrade cotton or linen fiber",
+      "artist_exploitation": "Morris Louis, Kenneth Noland from 1953 onward after switching from oil; the stain technique became archivally viable with acrylic"
+    },
+    {
+      "id": "SURF-ACRYLIC-GESSO",
+      "paint_type": "Acrylic Paint",
+      "surface": "Acrylic gesso primed canvas",
+      "interaction": "Like-on-like adhesion — acrylic on acrylic bonds through polymer fusion; mechanical and chemical adhesion combined",
+      "visual_effect": "Paint builds cleanly on white ground; all colors appear accurate; surface can be built to any thickness",
+      "absorbency": "Low to moderate",
+      "archival_assessment": "Excellent — ideal archival combination",
+      "artist_exploitation": "Universal standard practice for acrylic-based work"
+    }
+  ],
+
+  "layering_compatibility": {
+    "description": "Matrix indicating compatibility when Layer A (row) is placed over Layer B (column). Values: Excellent, Good, Acceptable, Poor, Not Recommended",
+    "matrix": {
+      "Oil (tube) over": {
+        "Dried oil": "Excellent (fat over lean rule applies)",
+        "Dried acrylic gesso": "Good (with careful application, avoid very lean oil first layers)",
+        "Dried acrylic paint": "Acceptable (mechanical adhesion only; some delamination risk)",
+        "Dried enamel (alkyd)": "Good (similar chemistry)",
+        "Raw canvas": "Poor (archival concern — fiber degradation)"
+      },
+      "Acrylic over": {
+        "Dried oil": "Poor (acrylic will not bond to oil surface)",
+        "Dried acrylic gesso": "Excellent",
+        "Dried acrylic paint": "Excellent",
+        "Dried enamel (alkyd)": "Acceptable (sanded surface improves adhesion)",
+        "Raw canvas": "Excellent"
+      },
+      "Enamel (alkyd) over": {
+        "Dried oil": "Good",
+        "Dried acrylic gesso": "Good",
+        "Dried acrylic paint": "Acceptable",
+        "Dried enamel (alkyd)": "Excellent",
+        "Raw canvas": "Acceptable"
+      },
+      "Watercolor over": {
+        "Watercolor (on paper)": "Excellent — glazing is natural to the medium",
+        "Acrylic (on paper)": "Poor — water beads on acrylic surface",
+        "Oil": "Not Recommended"
+      }
+    },
+    "key_rules": [
+      "Fat over lean (oil): each subsequent oil layer must have higher oil-to-solvent ratio than previous; prevents top layer drying faster and cracking",
+      "Acrylic over oil: NOT recommended as acrylic does not bond to oil; reverse order (oil over dried acrylic) is acceptable",
+      "Allow adequate drying between layers; wet-into-wet is intentional mixing, not layering",
+      "Pollock's mixed-media technique succeeded by applying enamel over enamel over enamel — same medium in successive layers"
+    ]
+  },
+
+  "solvent_effects": [
+    {
+      "id": "SOLV-MINERAL-SPIRITS",
+      "solvent": "Mineral Spirits / White Spirit",
+      "compatible_paints": ["oil", "alkyd enamel"],
+      "effect_on_viscosity": "Reduces dramatically — 1:5 dilution creates near-watercolor consistency from tube paint",
+      "effect_on_drying": "Faster surface dry as solvent evaporates first; can make paint lean and brittle if overused",
+      "effect_on_color": "Slightly desaturates when very dilute; matte effect with high dilution as less oil remains in film",
+      "effect_on_surface": "Very thin paint wicks into raw canvas; concentrated areas tend to separate at edges",
+      "artist_use": "Pollock used mineral spirits to thin enamel; Frankenthaler used turpentine (similar) for staining medium",
+      "hazards": "Flammable; VOC exposure; ventilation essential"
+    },
+    {
+      "id": "SOLV-TURPENTINE",
+      "solvent": "Gum Turpentine",
+      "compatible_paints": ["oil"],
+      "effect_on_viscosity": "Similar to mineral spirits but slightly more viscous; dries slower",
+      "effect_on_drying": "Slightly slower than mineral spirits; can contribute to yellowing with prolonged exposure",
+      "effect_on_color": "Similar to mineral spirits",
+      "effect_on_surface": "Traditional use for first lean layers and ground preparation",
+      "artist_use": "Traditional oil painting solvent; used by Frankenthaler early in career for thinning",
+      "hazards": "Flammable; potential allergen; VOC; respiratory hazard"
+    },
+    {
+      "id": "SOLV-WATER",
+      "solvent": "Water",
+      "compatible_paints": ["acrylic", "watercolor", "gouache"],
+      "effect_on_viscosity": "Reduces consistently; 1:10 dilution creates watercolor consistency from fluid acrylic",
+      "effect_on_drying": "More water = slower evaporation = slower initial drying; but film-forming is still temperature-dependent",
+      "effect_on_color": "High dilution reduces pigment concentration; very dilute acrylic approaches watercolor transparency",
+      "effect_on_surface": "Very dilute acrylic on raw canvas creates staining comparable to Frankenthaler's technique (used by Color Field second generation)",
+      "artist_use": "Universal for water-based media; Morris Louis and Noland used very dilute acrylic on raw canvas post-1953",
+      "hazards": "None"
+    },
+    {
+      "id": "SOLV-DAMAR-VARNISH",
+      "solvent": "Damar Varnish",
+      "compatible_paints": ["oil"],
+      "effect_on_viscosity": "Increases slightly; adds body",
+      "effect_on_drying": "Slightly faster; resin accelerates surface set",
+      "effect_on_color": "Increases saturation and gloss; warm amber tint (slight)",
+      "effect_on_surface": "Gloss medium; increases depth and luminosity",
+      "artist_use": "Used in lean/fat oil medium mixtures; as final varnish over completed works",
+      "hazards": "Flammable; mild solvent hazard"
+    }
+  ],
+
+  "absorption_rates": [
+    {
+      "surface": "Raw cotton duck canvas (unprimed)",
+      "absorption_rate": "Very High",
+      "absorption_time_seconds": 5,
+      "oil_penetration_depth_mm": 0.8,
+      "acrylic_penetration_depth_mm": 0.6,
+      "notes": "Paint soaks into fiber immediately; no working time for repositioning; edges soft and bleeding; characteristic stain effect results"
+    },
+    {
+      "surface": "Raw linen canvas (unprimed)",
+      "absorption_rate": "High",
+      "absorption_time_seconds": 10,
+      "oil_penetration_depth_mm": 0.5,
+      "acrylic_penetration_depth_mm": 0.4,
+      "notes": "Linen less absorbent than cotton; tighter weave; slightly more working time; more traditional substrate"
+    },
+    {
+      "surface": "Rabbit skin glue sized canvas",
+      "absorption_rate": "Moderate",
+      "absorption_time_seconds": 60,
+      "oil_penetration_depth_mm": 0.1,
+      "acrylic_penetration_depth_mm": 0.2,
+      "notes": "Glue layer slows penetration significantly; allows spreading before absorption; ideal for Rothko's wash technique"
+    },
+    {
+      "surface": "1 coat acrylic gesso",
+      "absorption_rate": "Moderate",
+      "absorption_time_seconds": 30,
+      "oil_penetration_depth_mm": 0.05,
+      "acrylic_penetration_depth_mm": 0.15,
+      "notes": "Some absorption through single coat; greater with more porous gesso formulations"
+    },
+    {
+      "surface": "3 coats acrylic gesso (sanded)",
+      "absorption_rate": "Low",
+      "absorption_time_seconds": 120,
+      "oil_penetration_depth_mm": 0.0,
+      "acrylic_penetration_depth_mm": 0.02,
+      "notes": "Paint sits on surface; good working time; even surface for controlled mark-making; standard contemporary preparation"
+    },
+    {
+      "surface": "Oil-primed canvas",
+      "absorption_rate": "Very Low",
+      "absorption_time_seconds": 300,
+      "oil_penetration_depth_mm": 0.0,
+      "acrylic_penetration_depth_mm": 0.0,
+      "notes": "Non-absorbent surface; paint slides; extended working time; allows blending; traditional imprimatura effect"
+    }
+  ],
+
+  "environmental_factors": [
+    {
+      "id": "ENV-TEMP",
+      "factor": "Temperature",
+      "optimal_range": "18-24°C",
+      "effects_on_oil": {
+        "cold_below_10C": "Oil greatly thickens; becomes very difficult to brush; drying slows significantly; outdoor cold-weather painting is challenging",
+        "warm_above_30C": "Oil thins and flows more easily; faster oxidation; Pollock's summer studio work in the Hamptons benefited from warm temperatures increasing flow"
+      },
+      "effects_on_acrylic": {
+        "cold_below_10C": "CRITICAL: acrylic will not form proper film below its minimum film-forming temperature (MFFT ~10-15°C); dried paint remains powdery and will crack or peel",
+        "warm_above_30C": "Faster drying; reduced working time; skin forms rapidly; retarder essential for blending"
+      },
+      "effects_on_technique": "Pollock's studio in the Hamptons had a tin roof; summer heat dramatically lowered enamel viscosity enabling the characteristic drip quality; winter work required heated studio"
+    },
+    {
+      "id": "ENV-HUMIDITY",
+      "factor": "Humidity",
+      "optimal_range": "45-65% relative humidity",
+      "effects_on_oil": {
+        "low_below_30pct": "Paint dries faster (humidity affects oxidation rate minimally but lower humidity increases evaporation of solvent components)",
+        "high_above_80pct": "Rabbit skin glue sizing swells dramatically causing canvas to buckle; dried oil paint can show milkiness (bloom); oil grounds expand"
+      },
+      "effects_on_acrylic": {
+        "low_below_30pct": "Faster drying; surface skin forms rapidly trapping wet paint beneath; can cause cracking in thick applications",
+        "high_above_80pct": "Significantly slowed drying; extended working time; beneficial for large-scale pour techniques"
+      },
+      "conservation_note": "Rothko Chapel paintings suffered from humidity cycling; the rabbit skin glue sizing in his works is particularly sensitive; conservation efforts focus on maintaining stable RH"
+    },
+    {
+      "id": "ENV-UV",
+      "factor": "UV Radiation",
+      "effects_on_oil": "Accelerates oxidative polymerization (speeds drying initially); long-term causes pigment fading (fugitive pigments), yellowing of oil films, and embrittlement; UV also bleaches some yellowed oil films (museums use controlled UV exposure for restoration)",
+      "effects_on_acrylic": "UV causes polymer chain degradation over very long exposure; pigment fading of fugitive colors; less susceptible than oil in general",
+      "museum_standard": "50 lux maximum for light-sensitive works; UV-filtering glass in frames; controlled gallery lighting levels",
+      "historical_note": "Pollock stored canvases rolled in his studio; the underside had different UV exposure to the face; conservation assessments note differential aging"
+    }
+  ]
+}
