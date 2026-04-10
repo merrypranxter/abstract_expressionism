@@ -1,0 +1,345 @@
+{
+  "color_palettes": [
+    {
+      "id": "PAL-SYS-POLLOCK-NO5",
+      "name": "Pollock No. 5, 1948",
+      "artist_inspiration": "Jackson Pollock",
+      "work_inspiration": "No. 5, 1948",
+      "colors": [
+        {"hex": "#c8b99a", "name": "Warm Sand", "role": "ground"},
+        {"hex": "#1a1208", "name": "Deep Sepia Black", "role": "dominant"},
+        {"hex": "#d4a843", "name": "Raw Sienna Yellow", "role": "accent"},
+        {"hex": "#f5f0e8", "name": "Titanium White", "role": "accent"},
+        {"hex": "#8b5a2b", "name": "Burnt Sienna", "role": "tension"}
+      ],
+      "harmony_type": "analogous",
+      "saturation": "low",
+      "value_range": "full-range",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Nestlike warmth; organic density; sense of looking into natural structure — spider webs, bird nests, autumn leaf litter compressed into strata",
+      "ai_art_tags": ["drip painting", "warm neutrals", "organic density", "layered lines", "allover composition", "warm sand ground", "gestural abstraction"]
+    },
+    {
+      "id": "PAL-SYS-ROTHKO-OY",
+      "name": "Rothko Orange and Yellow, 1956",
+      "artist_inspiration": "Mark Rothko",
+      "work_inspiration": "Orange and Yellow, 1956",
+      "colors": [
+        {"hex": "#e8821a", "name": "Cadmium Orange", "role": "dominant"},
+        {"hex": "#f2c40a", "name": "Chrome Yellow", "role": "dominant"},
+        {"hex": "#b85c10", "name": "Burnt Orange Shadow", "role": "tension"},
+        {"hex": "#fde68a", "name": "Pale Lemon Halo", "role": "accent"}
+      ],
+      "harmony_type": "analogous",
+      "saturation": "high",
+      "value_range": "mid",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Solar, joyful, transcendent warmth; the only unambiguously optimistic Rothko palette; the canvas radiates like an afternoon sun; standing before it feels like facing a warm light source",
+      "ai_art_tags": ["color field", "luminous orange", "warm glow", "Rothko rectangles", "floating forms", "radiant warmth", "soft edges"]
+    },
+    {
+      "id": "PAL-SYS-ROTHKO-SEAGRAM",
+      "name": "Rothko Seagram Murals, 1958-59",
+      "artist_inspiration": "Mark Rothko",
+      "work_inspiration": "Seagram Murals series",
+      "colors": [
+        {"hex": "#4a0e0e", "name": "Deep Maroon", "role": "ground"},
+        {"hex": "#7a1f1f", "name": "Dark Crimson", "role": "dominant"},
+        {"hex": "#1a0a0a", "name": "Near Black", "role": "dominant"},
+        {"hex": "#2d0808", "name": "Wine Shadow", "role": "tension"},
+        {"hex": "#8b2a2a", "name": "Deep Red", "role": "accent"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "low",
+      "value_range": "dark",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Oppressive, claustrophobic, elegiac; Rothko said he wanted to capture the feeling of a room where the doors and windows are bricked up — entombment; the dark rectangles press inward; intended for the Four Seasons restaurant but Rothko withdrew them",
+      "ai_art_tags": ["dark maroon", "near black rectangles", "entombment", "claustrophobic depth", "tragic warmth", "Seagram", "somber abstraction"]
+    },
+    {
+      "id": "PAL-SYS-ROTHKO-CHAPEL",
+      "name": "Rothko Chapel, 1971",
+      "artist_inspiration": "Mark Rothko",
+      "work_inspiration": "Rothko Chapel paintings, Houston",
+      "colors": [
+        {"hex": "#1a1410", "name": "Near Black Umber", "role": "dominant"},
+        {"hex": "#0f0c0a", "name": "Absolute Black", "role": "dominant"},
+        {"hex": "#2a1f18", "name": "Deep Brown Black", "role": "ground"},
+        {"hex": "#3a2a20", "name": "Dark Sienna Black", "role": "accent"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "low",
+      "value_range": "dark",
+      "emotional_temperature": "neutral",
+      "viewer_experience": "Silence, void, the absolute; fourteen nearly black canvases surround visitors in the octagonal chapel; the paintings are not quite black — warm browns and cool blacks alternate in the darkness; meditation on death, suffering, the transcendent silence beyond language; Rothko's final statement, completed just before his death",
+      "ai_art_tags": ["near-black", "meditative void", "spiritual darkness", "chapel paintings", "octagonal installation", "sacred space", "ultimate abstraction"]
+    },
+    {
+      "id": "PAL-SYS-KLINE-MAHONING",
+      "name": "Kline Mahoning, 1956",
+      "artist_inspiration": "Franz Kline",
+      "work_inspiration": "Mahoning, 1956",
+      "colors": [
+        {"hex": "#f5f0eb", "name": "Lead White Ground", "role": "ground"},
+        {"hex": "#0f0f0f", "name": "Ivory Black", "role": "dominant"},
+        {"hex": "#e8e0d4", "name": "Off-White", "role": "dominant"},
+        {"hex": "#b8a898", "name": "Warm Gray", "role": "tension"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "low",
+      "value_range": "full-range",
+      "emotional_temperature": "neutral",
+      "viewer_experience": "Industrial force; structural tension; black beams thrust across white space like the steel girders of bridges or buildings; the white is not passive — it pushes back against the black with equal force; the painting is a contest between two absolutes",
+      "ai_art_tags": ["black and white", "gestural brushwork", "industrial", "structural abstraction", "bold strokes", "Kline architecture", "monochrome force"]
+    },
+    {
+      "id": "PAL-SYS-FRANKENTHALER-MAS",
+      "name": "Frankenthaler Mountains and Sea, 1952",
+      "artist_inspiration": "Helen Frankenthaler",
+      "work_inspiration": "Mountains and Sea, 1952",
+      "colors": [
+        {"hex": "#d4e8f0", "name": "Marine Blue", "role": "ground"},
+        {"hex": "#7ab8c8", "name": "Cerulean Wash", "role": "dominant"},
+        {"hex": "#e8b4a0", "name": "Pale Salmon Pink", "role": "dominant"},
+        {"hex": "#a8c890", "name": "Sage Green", "role": "accent"},
+        {"hex": "#f5f0e8", "name": "Raw Canvas", "role": "ground"},
+        {"hex": "#d4a87a", "name": "Warm Sand Stain", "role": "tension"}
+      ],
+      "harmony_type": "split-complementary",
+      "saturation": "low",
+      "value_range": "light",
+      "emotional_temperature": "cool",
+      "viewer_experience": "Airy, oceanic, landscape dissolved into sensation; the painting captures Nova Scotia coastline seen from above; saturated raw canvas showing between stains creates breathing room; the stained forms float like watercolor islands; inaugurated the Color Field movement",
+      "ai_art_tags": ["stain painting", "soak technique", "pastel washes", "landscape abstraction", "raw canvas", "atmospheric color", "pioneering color field"]
+    },
+    {
+      "id": "PAL-SYS-NEWMAN-VH",
+      "name": "Newman Vir Heroicus Sublimis, 1950-51",
+      "artist_inspiration": "Barnett Newman",
+      "work_inspiration": "Vir Heroicus Sublimis, 1950-51",
+      "colors": [
+        {"hex": "#c0321e", "name": "Cadmium Red Deep", "role": "dominant"},
+        {"hex": "#b02818", "name": "Alizarin Shadow", "role": "ground"},
+        {"hex": "#f5f0e8", "name": "White Zip", "role": "tension"},
+        {"hex": "#d4c8b8", "name": "Cream Zip", "role": "tension"},
+        {"hex": "#8a1a10", "name": "Dark Red Edge", "role": "accent"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "high",
+      "value_range": "mid",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Sublime heroic confrontation; at 5.4 meters wide the red field envelops; five vertical 'zips' interrupt the field without breaking its unity; Newman instructed viewers to stand close — to lose the full picture and experience only the color; the heroic sublime of the individual before the infinite",
+      "ai_art_tags": ["cadmium red field", "vertical zip", "monumental scale", "sublime", "color field", "Newman heroic", "unbroken expanse"]
+    },
+    {
+      "id": "PAL-SYS-REINHARDT-BLACK",
+      "name": "Reinhardt Black Paintings, 1960-67",
+      "artist_inspiration": "Ad Reinhardt",
+      "work_inspiration": "Abstract Painting, 1963",
+      "colors": [
+        {"hex": "#080808", "name": "Blue-Black", "role": "dominant"},
+        {"hex": "#0a0a08", "name": "Red-Black", "role": "dominant"},
+        {"hex": "#080a08", "name": "Green-Black", "role": "dominant"},
+        {"hex": "#060606", "name": "Absolute Black", "role": "ground"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "low",
+      "value_range": "dark",
+      "emotional_temperature": "cool",
+      "viewer_experience": "Near invisibility; a cruciform triptych arrangement emerges only after extended looking as eyes dark-adapt; three panels each subtly different in color temperature; Reinhardt's ultimatum — the last painting before painting becomes nothing; 'Art is art, everything else is everything else'",
+      "ai_art_tags": ["ultimate black", "near-monochrome", "invisible cross", "pure negation", "Reinhardt final", "meditative black", "the last painting"]
+    },
+    {
+      "id": "PAL-SYS-TWOMBLY-LATE",
+      "name": "Twombly Late Works (Bacchus series), 2005-08",
+      "artist_inspiration": "Cy Twombly",
+      "work_inspiration": "Bacchus series, 2005-08",
+      "colors": [
+        {"hex": "#cc1a1a", "name": "Cadmium Red Swirl", "role": "dominant"},
+        {"hex": "#e8e0d0", "name": "Creamy White Ground", "role": "ground"},
+        {"hex": "#8b1010", "name": "Deep Crimson", "role": "tension"},
+        {"hex": "#f5f2ec", "name": "Pale Linen", "role": "ground"},
+        {"hex": "#b8a898", "name": "Gray Scumble", "role": "accent"}
+      ],
+      "harmony_type": "monochromatic",
+      "saturation": "high",
+      "value_range": "full-range",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Dionysian frenzy; vast looping red lines swirl across white grounds in a continuous Bacchanalian excess; the red is wine, blood, ecstasy; at gallery scale the canvases are overwhelming in their energy; the late triumph of a very old artist painting with abandon",
+      "ai_art_tags": ["red swirling loops", "Bacchus", "calligraphic energy", "Twombly late", "wine red", "large scale frenzy", "loop marks"]
+    },
+    {
+      "id": "PAL-SYS-MOOD-RAGE",
+      "name": "Rage (Mood Palette)",
+      "artist_inspiration": "Willem de Kooning, Franz Kline",
+      "work_inspiration": "Mood-based",
+      "colors": [
+        {"hex": "#cc1a00", "name": "Scarlet Rage", "role": "dominant"},
+        {"hex": "#1a1a18", "name": "Charcoal Black", "role": "dominant"},
+        {"hex": "#e85010", "name": "Burnt Orange Force", "role": "accent"},
+        {"hex": "#f5f0eb", "name": "Bruised White", "role": "tension"},
+        {"hex": "#8b0000", "name": "Dark Blood Red", "role": "tension"}
+      ],
+      "harmony_type": "complementary",
+      "saturation": "high",
+      "value_range": "full-range",
+      "emotional_temperature": "warm",
+      "viewer_experience": "Visceral aggression; the eye cannot rest; red and black fight for dominance; the white is violated, bruised; forceful gestural marks implied by the palette; emotional temperature near unbearable",
+      "ai_art_tags": ["rage", "violent abstraction", "scarlet and black", "aggressive gesture", "emotional extremity", "confrontational palette", "raw force"]
+    },
+    {
+      "id": "PAL-SYS-MOOD-SERENITY",
+      "name": "Serenity (Mood Palette)",
+      "artist_inspiration": "Mark Rothko, Agnes Martin",
+      "work_inspiration": "Mood-based",
+      "colors": [
+        {"hex": "#7ab8d4", "name": "Cerulean Calm", "role": "dominant"},
+        {"hex": "#b8d4e8", "name": "Pale Sky", "role": "ground"},
+        {"hex": "#d4e8f0", "name": "Morning Haze", "role": "dominant"},
+        {"hex": "#f0f4f8", "name": "Pure Light", "role": "accent"},
+        {"hex": "#9ab8c8", "name": "Still Water", "role": "tension"}
+      ],
+      "harmony_type": "analogous",
+      "saturation": "low",
+      "value_range": "light",
+      "emotional_temperature": "cool",
+      "viewer_experience": "Stillness, breathing, the absence of urgency; the palette of meditation and open sky; no contrasting colors demand attention; the eye can rest anywhere; invitation to presence",
+      "ai_art_tags": ["serenity", "pale blue", "meditative calm", "soft field", "breathable space", "contemplative", "horizon light"]
+    },
+    {
+      "id": "PAL-SYS-MOOD-MELANCHOLY",
+      "name": "Melancholy (Mood Palette)",
+      "artist_inspiration": "Mark Rothko, Robert Motherwell",
+      "work_inspiration": "Mood-based",
+      "colors": [
+        {"hex": "#4a5a6a", "name": "Slate Blue", "role": "dominant"},
+        {"hex": "#2a3848", "name": "Deep Navy Shadow", "role": "ground"},
+        {"hex": "#8a9aaa", "name": "Gray Blue", "role": "dominant"},
+        {"hex": "#c8b8a8", "name": "Faded Warmth", "role": "tension"},
+        {"hex": "#1a2430", "name": "Near Black Blue", "role": "accent"}
+      ],
+      "harmony_type": "analogous",
+      "saturation": "low",
+      "value_range": "dark",
+      "emotional_temperature": "cool",
+      "viewer_experience": "Wistful, contemplative sadness; the colors of late afternoon light fading; neither despair nor contentment — the bittersweet awareness of impermanence; weight without crushing",
+      "ai_art_tags": ["melancholy", "slate blue", "fading light", "contemplative sadness", "muted palette", "introspective", "late hour"]
+    }
+  ],
+
+  "color_theory_approaches": {
+    "Jackson Pollock": {
+      "approach": "Intuitive chromatic counterpoint",
+      "description": "Pollock largely abandoned traditional color theory in favor of intuitive response. His palette in the classic drip period (1947-1950) was often earth-tone-dominant — blacks, whites, tans, ochres — with bright color accents. He worked across entire canvases simultaneously, building chromatic relationships through repetition rather than planning. Influenced by the Jungian symbolic approach to color introduced by his analyst, he associated colors with psychological states. Silver enamel mixed with earth colors in No. 5 creates a metallic shimmer that reads as both ancient and industrial.",
+      "key_principle": "Color as psychological automatism — no pre-planned harmony",
+      "color_sources": ["Duco industrial enamel", "oil paint", "aluminum paint", "sand and debris mixed in"],
+      "palette_evolution": "Early Surrealist-influenced works use symbolic primaries; classic period moves toward muted naturalistic palette; late works reintroduce black exclusively in poured compositions"
+    },
+    "Mark Rothko": {
+      "approach": "Color as emotional and spiritual vehicle",
+      "description": "Rothko studied color theory systematically and was influenced by Matisse's luminism and the Symbolists. He built paintings through multiple translucent washes — sometimes 10-15 layers — to achieve a depth and vibration impossible with opaque paint. He used complements and near-complements to create the shimmer at the edges of his rectangles. The relationship between figure rectangles and ground was carefully calibrated: the ground must be felt pressing against the figure, not passive. He changed the relative value of figure vs. ground across his career — early works (1950s) have luminous figures on dark grounds; Seagram period reverses this; Chapel achieves near-equivalence.",
+      "key_principle": "Color as direct emotional transmission bypassing intellect",
+      "color_sources": ["oil paint on canvas", "egg tempera", "dry pigment bound with egg", "rabbit-skin glue sizing to control absorbency"],
+      "palette_evolution": "Early 1950s: saturated warm fields with light luminosity; mid-1950s: peak chromatic intensity; late 1950s: progressively darkening toward the Seagram maroons; 1964-70: grays and blacks dominate; Chapel: near-total darkness"
+    },
+    "Franz Kline": {
+      "approach": "Binary reduction — chromatic elimination as intensity",
+      "description": "Kline's monochromatic black-and-white approach was not a rejection of color but a concentration of energy into pure value contrast. He chose commercial house-paint black — which had blue-black or warm-black variants — applied over commercially primed white canvas. The 'white' in his paintings is not neutral: it is an active ground that pushes back. In his later years he introduced color — muted blues, ochres — but the black-white tension remained his primary chromatic interest. He studied Japanese calligraphy and understood value contrast as the source of graphic power.",
+      "key_principle": "Maximum contrast as emotional maximum — color adds noise, black-white achieves purity of force",
+      "color_sources": ["commercial house enamel black", "titanium white oil", "muted oil colors in late works"],
+      "palette_evolution": "1950-1962: almost exclusively black and white; 1956-62: occasional color accents introduced; late works include blues and ochres while maintaining black-white dominance"
+    },
+    "Helen Frankenthaler": {
+      "approach": "Atmospheric color through staining — color as weather",
+      "description": "Frankenthaler's revolutionary soak-stain technique transformed color from surface application to internal illumination. By thinning paint to watercolor consistency and pouring onto raw, unprimed canvas, she allowed color to become the fabric of the painting, not a coating on it. Her color theory was atmospheric and meteorological — colors behave like weather systems, bleeding and merging according to physical laws. She often worked from landscape observation but translated landscape sensation rather than transcribing landscape color. Her palettes tend toward the lyrical: pinks, blues, greens, with warm-cool tension.",
+      "key_principle": "Color and ground unified — the painting breathes because the canvas breathes",
+      "color_sources": ["highly thinned oil paint in turpentine (early works)", "acrylic polymer medium (from 1962)", "raw unprimed canvas"],
+      "palette_evolution": "Early 1950s: muted landscape-derived palette; late 1950s: more saturated color fields; 1960s transition to acrylic allows brighter, more synthetic color; mature work: bold chromatic contrasts with stain quality maintained"
+    },
+    "Barnett Newman": {
+      "approach": "Color as existential field — the sublime through saturation",
+      "description": "Newman's color theory was philosophical and sublime-oriented. He chose colors of extreme optical force — cadmium red, ultramarine, yellow — and applied them in flat, unmodulated fields at monumental scale. The 'zips' (vertical lines) were not compositional devices but revelatory — they create the field by dividing it, bring the viewer into awareness of the color's expanse. Newman studied Kabbalah and saw color fields as analogous to the void before creation — infinite and undifferentiated. The viewer's physical presence in the color field was the artwork's completion.",
+      "key_principle": "Color as the absolute — saturation at scale creates the experience of the infinite",
+      "color_sources": ["cadmium pigments", "ultramarine", "raw sienna", "titanium white", "ivory black"],
+      "palette_evolution": "Early 1940s: symbolic earth colors; 1948-1960: monochromatic saturated fields; later works: color range expands including black and white monochromes; Stations of the Cross (1958-66): exclusively black and white"
+    },
+    "Willem de Kooning": {
+      "approach": "Color as flesh — chromatic sensuousness and conflict",
+      "description": "De Kooning's color theory was sensuous and conflicted. He used raw, high-key color in his 'Women' series — fierce pinks, acid yellows, aggressive reds — in contrast to the muted, ambiguous grays and flesh tones of his abstract works. He mixed colors extensively on the palette and on the canvas surface, often scraping down compositions and reworking, so layers of contradictory color show through. He spoke of painting 'in the round' — as if the figure exists in three dimensions and color must convey its sensory complexity. Pink was his most loaded color: flesh, desire, violence simultaneously.",
+      "key_principle": "Color as sensory and erotic intelligence — no color is neutral in the context of the body",
+      "color_sources": ["oil paint", "safflower oil medium", "mixed commercial and artist grades"],
+      "palette_evolution": "1940s: muted pinks and grays; early 1950s: high-key acid palette in Women series; late 1950s: landscape-influenced greens and blues; late 1960s-70s: fluid, more transparent palette"
+    },
+    "Robert Motherwell": {
+      "approach": "Symbolic dualism — black and white as existential poles",
+      "description": "Motherwell's color use was philosophically grounded and symbolically consistent. His Elegy to the Spanish Republic series (1948-1990) established black forms against white ground as a symbolic vocabulary — mourning, mortality, the night of fascism against the light of the Republic. He was deeply influenced by French Symbolism and maintained a literary relationship to color: ochre was Mediterranean warmth and ancient memory; black was death and authority; white was hope and emptiness; blue was the Mediterranean sky. He wrote extensively about color theory and was the most intellectual colorist of the Abstract Expressionist generation.",
+      "key_principle": "Color as symbolic language — each color carries historical and emotional connotation",
+      "color_sources": ["oil paint", "paper collage (varied colors)", "gouache"],
+      "palette_evolution": "Consistent symbolic palette throughout career; Elegies maintain black-white; collage works introduce Mediterranean ochres and blues; Open series (from 1967): large light-filled expanses with single rectangular drawn opening"
+    },
+    "Ad Reinhardt": {
+      "approach": "Color as self-erasure — the pursuit of the absolute through negation",
+      "description": "Reinhardt's color theory was unique among Abstract Expressionists — he systematically eliminated color over decades, moving from geometric multi-colored works in the 1940s through red monochromes, blue monochromes, and finally the black paintings (1960-67). His black paintings are not actually black: each contains a subtle nine-square grid in which each square is a different near-black (blue-black, red-black, green-black). This requires minutes of adaptation to perceive. Reinhardt saw color as impurity — a distraction from 'pure painting.' His ultimate paintings are color reduced to its own negation.",
+      "key_principle": "Color must be eliminated to reveal what painting is — the process of negation is the content",
+      "color_sources": ["matte oil paint", "dry pigment", "no varnish or medium — the surface must be absolutely matte"],
+      "palette_evolution": "1937-44: geometric multi-color; 1944-53: gradually simplified; 1953-57: red paintings; 1957-60: blue paintings; 1960-67: black paintings exclusively"
+    }
+  },
+
+  "emotional_color_mappings": [
+    {
+      "id": "ECM-001",
+      "color_range": "Deep saturated red (crimson to cadmium red)",
+      "hex_range": ["#8b0000", "#cc1a00", "#e82a0a"],
+      "emotional_states": ["passion", "rage", "vitality", "danger", "eroticism", "sacrifice"],
+      "psychological_basis": "Red stimulates the autonomic nervous system — measurably increases heart rate and blood pressure (Elliot et al. 2007); associated with blood, fire, urgency; in Jungian terms, red is the color of libido — both sexual energy and the vital drive; increases arousal independent of cultural context (cross-cultural studies by Hupka et al.)",
+      "artist_use": "Rothko used warm reds for his most transcendent works (Orange and Yellow, Vir Heroicus relationship); de Kooning used acid red-pink in Women series for erotic aggression; Motherwell's black against white relates to red's absence",
+      "cultural_modifiers": "Western: love, danger; Chinese tradition: luck and prosperity; universal: blood association"
+    },
+    {
+      "id": "ECM-002",
+      "color_range": "Near-black (darkest values)",
+      "hex_range": ["#050505", "#0f0f0f", "#1a1a1a"],
+      "emotional_states": ["death", "void", "authority", "finality", "transcendence", "the sublime", "mystery"],
+      "psychological_basis": "Black reduces visual arousal to minimum; associated with the unknown (pre-modern: night, death); psychologically linked to finality and authority; Reinhardt's near-blacks require dark adaptation — the eye must surrender to find them; this phenomenological surrender mirrors psychological surrender to the void",
+      "artist_use": "Kline: black as structural force, industrial weight; Reinhardt: black as ultimate negation; Rothko Chapel: black as spiritual silence; Motherwell's Elegies: black as mourning and mortality",
+      "cultural_modifiers": "Universal association with death and night; Western: mourning; formal authority; the absolute"
+    },
+    {
+      "id": "ECM-003",
+      "color_range": "Warm ochre to amber",
+      "hex_range": ["#b8860b", "#d4a010", "#c8881a"],
+      "emotional_states": ["warmth", "nostalgia", "antiquity", "harvest", "earth memory", "golden time"],
+      "psychological_basis": "Ochre is the oldest human pigment (Pinnacle Point, 165,000 BCE); evolutionary association with ripe fruit and safe habitation; physiological warmth perception; reminiscent of firelight — prehistoric safety signal",
+      "artist_use": "Pollock's earth-tone ground in classic drip works; Motherwell's Mediterranean ochres evoking ancient sunlight; Twombly's use of ochre evoking antiquity and archaeological excavation",
+      "cultural_modifiers": "Near-universal positive valence; associated with sun, earth, harvest across cultures"
+    },
+    {
+      "id": "ECM-004",
+      "color_range": "Cool deep blue to ultramarine",
+      "hex_range": ["#1a2a6a", "#2040a0", "#003080"],
+      "emotional_states": ["depth", "contemplation", "melancholy", "infinity", "trust", "spiritual elevation"],
+      "psychological_basis": "Blue light suppresses melatonin and can be alerting, but saturated deep blue has been consistently rated as most 'contemplative' color cross-culturally; associated with sky (open space, freedom) and ocean (depth, unknown); Kandinsky identified blue as the most spiritual color — receding into infinite depth",
+      "artist_use": "Rothko's blues (No. 61 Rust and Blue) create the greatest optical depth of his color pairings; Newman's blue monochromes; Pollock's Blue Poles as chromatic climax",
+      "cultural_modifiers": "Western: sadness (blue mood), trust, spirituality; universal sky association"
+    },
+    {
+      "id": "ECM-005",
+      "color_range": "Luminous warm white to cream",
+      "hex_range": ["#f8f4ec", "#fff8f0", "#f0ebe0"],
+      "emotional_states": ["openness", "potential", "breath", "hope", "the unwritten", "freedom", "silence"],
+      "psychological_basis": "White reflects maximum light — the most arousing stimulus in terms of visual brightness; yet large expanses of white induce contemplative states through absence; the blank field as invitation; phenomenologically, white recedes in Kline's paintings while advancing in Rothko's grounds — context determines spatial and emotional reading",
+      "artist_use": "Kline: white as active combatant against black; Frankenthaler: raw canvas white as breathing space; Reinhardt: white as the rejected opposite of his black negation",
+      "cultural_modifiers": "Eastern: mourning (white funeral); Western: purity, marriage, beginning; universal: light association"
+    },
+    {
+      "id": "ECM-006",
+      "color_range": "Muted sage to olive green",
+      "hex_range": ["#7a8a60", "#a0a870", "#909878"],
+      "emotional_states": ["growth", "nature", "unease", "organic life", "vitality", "the natural world"],
+      "psychological_basis": "Green is most easily discriminated by the human visual system (peak cone sensitivity near 555nm); associated with vegetation and biological life; muted, unsaturated greens introduce a note of nature and organic process into abstract compositions; pure bright green is rarely used by AbEx artists — too 'decorative'",
+      "artist_use": "Frankenthaler's sage greens in Mountains and Sea; de Kooning's landscape-inspired greens in late 1950s Parkway paintings; occasionally in Pollock's compositions",
+      "cultural_modifiers": "Universal: nature, growth; Islamic: sacred paradise; Western: environmental, health, safety"
+    }
+  ]
+}
